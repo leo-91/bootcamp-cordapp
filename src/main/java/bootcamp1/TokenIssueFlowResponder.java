@@ -1,4 +1,4 @@
-package bootcamp;
+package bootcamp1;
 
 import co.paralleluniverse.fibers.Suspendable;
 import net.corda.core.flows.*;

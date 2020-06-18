@@ -1,4 +1,4 @@
-package bootcamp;
+package bootcamp1;
 
 import co.paralleluniverse.fibers.Suspendable;
 import net.corda.core.flows.*;
@@ -6,7 +6,6 @@ import net.corda.core.identity.Party;
 import net.corda.core.transactions.SignedTransaction;
 import net.corda.core.transactions.TransactionBuilder;
 import net.corda.core.utilities.ProgressTracker;
-import net.corda.core.contracts.CommandData;
 
 import static java.util.Collections.singletonList;
 
