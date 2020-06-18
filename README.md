@@ -5,20 +5,20 @@
 # Bootcamp CorDapp
 
 This project is the template we will use as a basis for developing a complete CorDapp 
-during today's bootcamp. Our CorDapp will allow the issuance of tokens onto the ledger.
+during today's bootcamp1. Our CorDapp will allow the issuance of tokens onto the ledger.
 
 We'll develop the CorDapp using a test-driven approach. At each stage, you'll know your 
-CorDapp is working once it passes both sets of tests defined in `src/test/java/bootcamp`.
+CorDapp is working once it passes both sets of tests defined in `src/test/java/bootcamp1`.
 
 ## Set up
 
 1. Download and install a JDK 8 JVM (minimum supported version 8u131)
 2. Download and install IntelliJ Community Edition (supported versions 2017.x and 2018.x)
-3. Download the bootcamp-cordapp repository:
+3. Download the bootcamp1-cordapp repository:
 
-       git clone https://github.com/corda/bootcamp-cordapp
+       git clone https://github.com/corda/bootcamp1-cordapp
        
-4. Open IntelliJ. From the splash screen, click `Import Project`, select the `bootcamp—
+4. Open IntelliJ. From the splash screen, click `Import Project`, select the `bootcamp1—
 cordapp` folder and click `Open`
 5. Select `Import project from external model > Gradle > Next > Finish`
 6. Click `File > Project Structure…` and select the Project SDK (Oracle JDK 8, 8u131+)
@@ -38,7 +38,7 @@ This project contains example state, contract and flow implementations:
 * `src/main/java/java_examples/ArtTransferFlowResponder`
 
 There are also several web resources that you will likely find useful for this
-bootcamp:
+bootcamp1:
 
 * Key Concepts docs (`docs.corda.net/key-concepts.html`)
 * API docs (`docs.corda.net/api-index.html`)
@@ -166,4 +166,4 @@ Once you've finished the CorDapp's code, run it with the following steps:
 * You can now see the tokens in the vaults of Party A and Party B (but not 
   Party C!) by running the following command in their respective terminals:
 
-    `run vaultQuery contractStateType: bootcamp.TokenState`
+    `run vaultQuery contractStateType: bootcamp1.TokenState`
